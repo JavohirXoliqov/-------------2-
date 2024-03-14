@@ -1,41 +1,62 @@
-
+@media(max-width:1080px){
+    
+}
 .neck{
     display: flex;
     flex-direction: column;
-    gap: 50px;
     justify-content: center;
     align-items: center;
-    padding: 60px 160px;
+    padding: 200px 180px;
 }
 
 .neck1{
     display: flex;
+    color: #3d40ac;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
+    border: 1px solid #1e00ff;
     height: 600px;
     width: 300px;
     transform: translateZ(-380px);
-    border-radius: 100px;
-    background: blue;
-    filter: blur();
-    box-shadow: 0 0 120px hsla(245, 98%, 50%, 0.807),
-                0 0 200px hsla(245, 98%, 50%, 0.801),
-                0 0 300px hsla(245, 98%, 50%, 0.805),
-                0 0 400px hsla(245, 98%, 50%, 0.8),
-                0 0 500px hsla(245, 98%, 50%, 0.1);
+    border-radius: 10px;
+    background-image: url(assets/image/1636966018_1-bogatyr-club-p-krasivii-neonovii-fon-1.jpg);
+    opacity: 9;
 
+   
 }
+
 .button {
-    background-color: rgb(246, 246, 246);
-    border-radius: 50px;
-    width: 80px;
-    height: 40px;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgb(10, 10, 51);
+    color: #e3e3e3;
+    border: 1px solid blue;
+    cursor: pointer;
+    transition: all .4s ease;
+
 }
 .a {
     color: white;
 }
+.img-container {
+    width: 1500px;
+    height: 900px;
+    position: fixed;
+    opacity: .9;
+    top: 0px;
+    left:0px;
+
+    
+}
+
+.button:hover {
+    color: #1e00ff;
+    background-color: #e3e3e3;
+}
+
+
 
 
